@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.name_actor {
+    background-color: #90ea37;
+    padding: 10px 30px;
+    border-bottom: 3px solid #6e0808;
+    border-top: 3px solid #6e0808;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+p {
+    background-color: #bce3e3;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.photo {
+    border-left: 5px dashed #6e0808;
+    border-right: 5px dashed #6e0808;
+    display: block;
+    margin: 15px auto;
+}
+
+.contents {
+    padding: 15px 25px;
+    margin: 3px;
+    border: 3px solid #111;
+}
+
+span {
+    display: block;
+    margin: 10px 25px;
+    color: #1b37d3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline #20064f;
+}
+
+#bio, #life {
+    margin: 3px 3px 10px;
+    background-color: #90ea37;
+    padding: 10px;
+    border-radius: 5px;
+}
