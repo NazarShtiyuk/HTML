@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .block {
+            text-align: center;
+        }
+
+        .a {
+            width: 600px;
+            height: 100px;
+            background-color: #90ea37;
+            line-height: 100px;
+        }
+
+        .b {
+            width: 600px;
+            height: 100px;
+            background-color: #062942;
+            line-height: 100px;
+        }
+
+        .cd {
+            display: flex;
+            width: 600px;
+        }
+
+        .c {
+            width: 400px;
+            height: 400px;
+            background-color: #d06464;
+            line-height: 400px;
+            flex-grow: 3;
+        }
+
+        .d {
+            width: 200px;
+            height: 400px;
+            background-color: #6e0808;
+            line-height: 400px;
+            flex-grow: 2;
+        }
+
+        .e {
+            width: 600px;
+            height: 100px;
+            background-color: #bce3e3;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a block">A</div>
+    <div class="b block">B</div>
+    <div class="cd">
+        <div class="c block">C</div>
+        <div class="d block">D</div>
+    </div>
+    <div class="e block">E</div>
+</body>
+</html>

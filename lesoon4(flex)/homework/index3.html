@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .block {
+            text-align: center;
+        }
+
+        .a {
+            width: 300px;
+            height: 100px;
+            background-color: #90ea37;
+            line-height: 100px;
+        }
+
+        .bcd {
+            display: flex;
+            width: 300px;
+        }
+
+        .b {
+            width: 100px;
+            height: 100px;
+            background-color: #6e0808;
+            line-height: 100px;
+            flex-grow: 1;
+        }
+
+        .c {
+            width: 100px;
+            height: 100px;
+            background-color: #d06464;
+            line-height: 100px;
+            flex-grow: 1;
+        }
+
+        .d {
+            width: 100px;
+            height: 100px;
+            background-color: #062942;
+            line-height: 100px;
+            flex-grow: 1;
+        }
+
+        .e {
+            width: 300px;
+            height: 300px;
+            background-color: #5e1b51;
+            line-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a block">A</div>
+    <div class="bcd">
+        <div class="b block">B</div>
+        <div class="c block">C</div>
+        <div class="d block">D</div>
+    </div>
+    <div class="e block">E</div>
+</body>
+</html>
