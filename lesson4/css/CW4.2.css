@@ -66,7 +66,7 @@
     width: 500px;
     margin: 0 auto;
     text-align: center;
-    padding: 80px 0;
+    padding: 80px 0 15px;
 }
 .btn {
     display: block;
@@ -85,7 +85,9 @@
     width: 1000px;
     margin: auto;
     border-radius: 25px;
-    border: 1px solid #2E9EBA;
+    border: 2px solid #2E9EBA;
+    position: relative;
+    top: 150px;
 }
 .info__title {
     text-align: center;
@@ -99,11 +101,12 @@
 .item__photo {
     width: 175px;
     height: 150px;
-    background-color: #111111;
+    background: linear-gradient(to top, #A5ADB4 40%, #111111 40%);
     border-radius: 10px;
 }
 .item__text {
     margin: 10px 0 35px;
+    color: #A5ADB4;
 }
 .project {
     background-color: #111111;
@@ -113,7 +116,7 @@
 }
 .project__item {
     width: 250px;
-    margin: 25px auto;
+    margin: 150px auto 25px;
     padding: 25px;
     border: 1px solid #111111;
 }
