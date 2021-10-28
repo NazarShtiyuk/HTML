@@ -1,0 +1,74 @@
+@media screen and (max-width: 375px) {
+    .header__soc {
+        justify-content: center;
+        padding-right: 0;
+    }
+    .header__soc-item {
+        width: 25px;
+    }
+    .header__soc-item + .header__soc-item {
+        margin-left: 20px;
+    }
+    
+    .header__menu {
+        display: block;
+        padding: 25px 0 15px;
+    }
+    .header__logo {
+        margin: 0 auto 25px;
+    }
+    .menu {
+        justify-content: center;
+    }
+    .menu__item {
+        width: 45px;
+    }
+    .header__desrc {
+        font-size: 12px;
+    }
+    .descr__inner {
+        width: 100%;
+    }
+    .descr__text {
+        font-size: 16px;
+        padding: 15px 10px 0;
+    }
+    .btn {
+        width: 100px;
+    }
+    .info__inner {
+        width: 90%;
+        top: 10px;
+    }
+    .info__box {
+        display: block;
+    }
+    .info__item {
+        width: fit-content;
+        margin: auto;
+    }
+    .item__photo {
+        border: 1px solid #111111;
+        margin: auto;
+    }
+    .item__text {
+        color: #111111;
+    }
+    .project {
+        display: block;
+        padding: 15px 0;
+    }
+    .project__item {
+        margin-top: 0;
+    }
+    .buy {
+        display: block;
+        padding: 0 0 25px;
+    }
+    .buy__item {
+        width: 100%;
+    }
+    .footer__info {
+        width: 100%;
+    }
+}
