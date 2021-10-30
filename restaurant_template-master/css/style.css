@@ -1,0 +1,440 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Tinos', serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background: url("../image/bg.png") no-repeat center/cover;
+  height: 100vh;
+}
+.header__top {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+  padding-left: 268px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ffffff;
+  height: 50px;
+}
+.menu__item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #fff;
+}
+.menu__item img {
+  width: 20px;
+  margin-left: 11px;
+  margin-right: 21px;
+}
+
+.menu__item + .menu__item {
+  margin-left: 23px;
+}
+.nav__btn__mobile {
+  display: none;
+  width: 40px;
+}
+.nav__btn__mobile div {
+  height: 3px;
+  background-color: #FF7400;
+  border-right: 50px;
+  margin: 5px;
+}
+.header__tel {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__reservation {
+  margin-left: 34px;
+  margin-right: 50px;
+}
+.header__tel:before {
+  content: url("../image/phone.png");
+  margin-right: 8px;
+}
+
+.reservation__text {
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 155px;
+}
+
+.button__reservation {
+  background-color: #FF7400;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 14px 18px 14px 19px;
+  cursor: pointer;
+}
+
+.header__content {
+  margin-top: 250px;
+}
+.header__subtitle {
+  font-size: 50px;
+  line-height: 57px;
+  color: #D67E35;
+  margin-left: 24px;
+}
+.header__title {
+  font-size: 80px;
+  line-height: 92px;
+  color: #D67E35;
+  margin-bottom: 12px;
+}
+.header__text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-left: 165px;
+  margin-bottom: 21px;
+}
+.header__text:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  top: 13px;
+  right: 70px;
+}
+.header__text:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  bottom: 13px;
+  left: 180px;
+}
+.btn__content {
+  margin-left: 155px;
+  background-color: #FF7400;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 14px 18px 14px 19px;
+  cursor: pointer;
+}
+.header__info {
+  display: flex;
+  justify-content: space-around;
+  width: 1138px;
+  margin-top: 200px;
+}
+.info__item {
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.info__item-image {
+  padding: 48px 131px 4px;
+}
+.info__item-title {
+  font-size: 26px;
+  line-height: 30px;
+  color: #2C2C2C;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.info__item-title span {
+  color: #BC9060;
+}
+.info__item__text {
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #656363;
+  padding: 0 20px 20px;
+}
+
+.history {
+  margin-top: 350px;
+  background: url("../image/history__bg.png") no-repeat top right;
+}
+.history__inner {
+  width: 444px;
+}
+.history__title {
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.history__title span {
+  color: #BC9060;
+}
+.history__text {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #656363;
+  padding-bottom: 75px;
+}
+.history__item {
+  display: flex;
+  justify-content: center;
+}
+.item__box {
+  padding: 0 20px;
+}
+.history__number {
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  color: #BC9060;
+}
+.history__text {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.reservation {
+  background: url("../image/reservation__bg.jpg") no-repeat center/cover;
+  height: 357px;
+}
+.reservation__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.reservation__left {
+  width: 605px;
+  padding: 80px 0 105px;
+}
+.reservation__title {
+  font-size: 52px;
+  line-height: 60px;
+  color: #D67E34;
+  margin-bottom: 20px;
+}
+.reservation__left-text {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.reservation__button {
+  margin-top: 155px;
+  background-color: #FF7400;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 14px 18px 14px 19px;
+  cursor: pointer;
+  height: 50px;
+}
+.dishes {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.dishes__title {
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+  margin-bottom: 140px;
+}
+.dishes__title span {
+  color: #D67E34;
+}
+.dishes__wrapper {
+  display: flex;
+}
+.dishes__left {
+  margin-right: 30px;
+}
+.right__item-photo {
+  width: 160px;
+}
+.dishes__right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.dishes__right-item {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+.right__item-text {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.ourMenu {
+  background: url("../image/ourMenu-bg.jpg") no-repeat;
+  background-size: cover;
+}
+.ourMenu__title {
+  padding-top: 100px;
+  margin-bottom: 138px;
+  text-align: center;
+  font-size: 54px;
+  line-height: 62px;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
+}
+.ourMenu__info{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 225px;
+}
+.ourMenu__item {
+  width: 350px;
+  background-color: #fff;
+}
+.ourMenu__item span {
+  position: absolute;
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  background: #D67E34;
+  width: 100px;
+  height: 18px;
+  padding: 7px 11px;
+}
+.ourMenu__item-photo {
+  padding: 80px 62px 22px;
+}
+.ourMenu__item-title {
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.ourMenu__item-text {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.ourMenu__item-buy {
+  background: #D67E34;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  padding: 14px 68px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.gallery {
+  margin: 100px 0;
+  position: relative;
+}
+.gallery:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 100px;
+}
+.gallery:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.gallery__title {
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.gallery__title span {
+  color: #FF7400;
+}
+.gallery__photos {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.chef__title {
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.chef__title span {
+  color: #FF7400;
+}
+.chef__photos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.footer {
+  background: url("../image/footer.jpg") no-repeat center;
+  height: 732px;
+}
+
+
