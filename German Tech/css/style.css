@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header__menu {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    margin-top: 5px;
+    box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.1);
+}
+.menu {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    column-gap: 35px;
+}
+.header__info {
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+.header__info-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.header__left {
+    margin-top: 100px;
+    width: 45%;
+}
+.left__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    color: #1652AC;
+}
+.left__title:after {
+    content: "";
+    display: block;
+    width: 225px;
+    height: 5px;
+    background-color: #EDEFF3;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.left__subtitle {
+    margin-top: 55px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+}
+.left__subtitle:after {
+    content: "";
+    display: block;
+    width: 225px;
+    height: 5px;
+    background-color: #EDEFF3;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.left__image {
+    width: 125%;
+}
+.header__right {
+    width: 45%;
+    margin-left: 55px;
+}
+.right__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+}
+.right__subtitle {
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+.content__inner {
+    display: flex;
+}
+img.content__image {
+    height: 730px;
+    width: 545px;
+}
+.content__info {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+.content__title {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+.content__text {
+    padding: 0 80px;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
