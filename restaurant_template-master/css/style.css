@@ -55,23 +55,23 @@ table {
   height: 100vh;
 }
 .header__top {
-  padding-top: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  /*padding-top: 50px;*/
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+  /*align-items: center;*/
 }
 .menu {
   padding-left: 268px;
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  /*align-items: center;*/
   border-right: 1px solid #ffffff;
   height: 50px;
 }
 .menu__item {
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 14px;
   line-height: 19px;
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #fff;
 }
 .menu__item img {
